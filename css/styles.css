@@ -564,6 +564,7 @@ input {
   min-width: 165px;
   display: inline-flex;
   padding: 8px 24px;
+  justify-content: center;
   align-items: center;
   border-radius: 4px;
   background: var(--primary-brand);
@@ -847,7 +848,7 @@ input {
   line-height: 1.17;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  color: rgba(46, 47, 66, 0.4) ;
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   resize: none;
   background-color: transparent;
@@ -884,14 +885,13 @@ input {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-checkbox-input:checked + .modal-checkbox-text span {
@@ -911,7 +911,7 @@ input {
 
 .modal-btn {
   min-width: 169px;
-  font-family: 'Roboto' sans-serif;
+  font-family: "Roboto" sans-serif;
   display: inline-flex;
   padding: 16px 32px;
   display: block;
