@@ -510,6 +510,11 @@ input {
   fill: var(--light);
 }
 
+.footer-subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
 .footer-subscribe-title {
   color: var(--white-background);
   font-size: 16px;
@@ -529,6 +534,9 @@ input {
   padding-left: 16px;
   padding-right: 16px;
   font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: var(--white-background);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -553,11 +561,10 @@ input {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 165px;
+  min-width: 165px;
   display: inline-flex;
   padding: 8px 24px;
   align-items: center;
-  margin-left: 24px;
   border-radius: 4px;
   background: var(--primary-brand);
   border: none;
@@ -877,8 +884,8 @@ input {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
